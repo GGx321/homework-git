@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    color: whitesmoke;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    margin-bottom: 40px;
+}
+
+.navbar a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+.navbar .logo {
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar .menu {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.dropdown {
+    position: relative;
+    padding: 0 15px;
+}
+
+.dropdown select {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.dropdown select:hover {
+    background-color: #575757;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 35px;
+    align-items: center;
+}
+
+.view{
+    padding: 8px 15px;
+    background-color: #24AA8A;
+    text-decoration: none;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+
+.view:hover{
+    background-color: #1d8f74;
+}
+
+.content {
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.code-container {
+    padding: 20px;
+}
+
+pre {
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+footer .buttons {
+    display: flex;
+    margin-top: 10px;
+    margin-right: 40px;
+    justify-content: end;
+    gap: 20px;
+}
+
+footer .footer-links-tg {
+    display: inline-block; 
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    background-image: url('../../img/bxl-telegram.svg');
+    background-size: cover; 
+    background-position:center;
+    filter:invert();
+}
+
+footer .footer-links-git {
+    display: inline-block; 
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    background-image: url('../../img/bxl-github.svg');
+    background-size: cover; 
+    background-position: center;
+    filter:invert();
+}
+
+footer .footer-links-tg:hover {
+    background-color: #777;
+    border-radius: 50%;
+}
+
+footer .footer-links-git:hover {
+    background-color: #777;
+    border-radius: 50%;
+}
+
+footer .rights {
+    text-align: start;
+    margin-top: 20px;
+    font-size: 14px;
+}
